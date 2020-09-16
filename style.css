@@ -6,7 +6,7 @@ header {
 /*adds the sandpaper background to the body*/
 body {
   margin: 0;
-  background-image: url(sandpaper.png)
+  background-image: url(images/sandpaper.png)
 }
 section {
   padding: 0 25%;

@@ -73,3 +73,10 @@ color: #009eff
 a:active{
 color: #70c9ff
 }
+/*center for picture*/
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

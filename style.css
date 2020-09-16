@@ -1,7 +1,9 @@
+/*adds brown background to the header*/
 header {
   height: 140px;
   background-color: #403933;
 }
+/*adds the sandpaper background to the body*/
 body {
   margin: 0;
   background-image: url(sandpaper.png)
@@ -13,6 +15,7 @@ section {
 footer {
   background-color: #403933;
 }
+/*styles my name in the header*/
 .logo {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 50px;
@@ -28,6 +31,7 @@ header h2{
   font-size: 18px;
   text-align: center;
 }
+/*syltes h2 to help indicate separate sections better*/
 h2 {
   font-family: sans-serif;
   color: #403933;
@@ -52,4 +56,20 @@ footer p {
   text-align: center;
   padding: 30px;
   margin: 0;
+}
+/*unvisited link*/
+a:link{
+color: #005589;
+}
+/*visited link*/
+a:visited{
+color: #003b5f
+}
+/*hover link*/
+a:hover{
+color: #009eff
+}
+/*clicked link*/
+a:active{
+color: #70c9ff
 }

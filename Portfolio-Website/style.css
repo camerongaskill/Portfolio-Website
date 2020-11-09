@@ -1,0 +1,128 @@
+
+/*adds brown background to the header*/
+header {
+  height: 140px;
+  background-color: #403933;
+}
+/*adds the sandpaper background to the body*/
+body {
+  margin: 0;
+  background-image: url(images/sandpaper.png)
+}
+footer {
+  background-color: #403933;
+}
+/*styles my name in the header*/
+.logo {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 50px;
+  color: #c5c0b8;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+header h2{
+  font-family: 'Namum Pen Script', cursive;
+  color: #e3e1dc;
+  margin: 0px;
+  font-size: 18px;
+  text-align: center;
+}
+/*syltes h2 to help indicate separate sections better*/
+h2 {
+  font-family: sans-serif;
+  color: #403933;
+  text-align: center;
+  font-weight: 500;
+}
+h3 {
+  font-family: sans-serif;
+  color: #403933;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+}
+p {
+  font-family: serif;
+  color: #403933;
+  font-weight: 500;
+  text-align: center;
+  font-size: 24px;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+/*unvisited link*/
+a:link{
+color: #005589;
+}
+/*visited link*/
+a:visited{
+color: #003b5f
+}
+/*hover link*/
+a:hover{
+color: #009eff
+}
+/*clicked link*/
+a:active{
+color: #70c9ff
+}
+/*center for picture*/
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+/*flexbox additions*/
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+.list-item {
+  font-family: serif;
+  color: #403933;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.portfolio {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
